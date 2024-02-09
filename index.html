@@ -124,17 +124,17 @@
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3" action="https://formsubmit.co/724fae722767cc5a29e035baf2a67ba7" method="POST"> <!--replace string in email-->
             <div class="input-group mb-3">
-              <input type="text" aria-label="First name" class="form-control" placeholder="First Name" required>
-              <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name" required>
+              <input type="text" aria-label="First Name" class="form-control" placeholder="First Name" id="firstName" name="First Name" required>
+              <input type="text" aria-label="Last Name" class="form-control" placeholder="Last Name" id="lastName" name="Last Name" required>
             </div>
             <div class="mb-3">
-              <input type="tel" class="form-control" id="phonenumber" placeholder="888-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="888-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone">
             </div>
             <div class="mb-3">
-              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
             </div>
             <div class="mb-3">
-              <textarea class="form-control" id="message" rows="3" placeholder="Message" required></textarea>
+              <textarea class="form-control" id="message" rows="3" placeholder="Message" name="message, questions" required></textarea>
             </div>
             <div class="checkbox mb-3">
             </div>
