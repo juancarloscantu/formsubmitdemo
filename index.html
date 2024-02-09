@@ -123,6 +123,12 @@
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3" action="https://formsubmit.co/724fae722767cc5a29e035baf2a67ba7" method="POST"> <!--replace string in email-->
+            <!-- Honey pot-->
+            <input type="text" name="_honey" style="display: none;">
+            
+            <!--Diable Captcha-->
+            <input type="hidden" name="_captcha" value="false">
+
             <div class="input-group mb-3">
               <input type="text" aria-label="First Name" class="form-control" placeholder="First Name" id="firstName" name="First Name" required>
               <input type="text" aria-label="Last Name" class="form-control" placeholder="Last Name" id="lastName" name="Last Name" required>
